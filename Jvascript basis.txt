@@ -8,3 +8,26 @@ Primitive js data types:
 -null
 Ako je naziv varijable od vise rijeci ,prva se pise malim a sve ostale pocinju sa velikim slovima,ne smije poceti sa brojem ili simbolima,ali moze sa $ znakom ili sa _.
 takode ne smiju se korisitit rezervisane rijeci u js (function,delete,if,while itd).
+
+Boolean logic
+
+-Sve sto ima value-vrijednost je uvijek TRUE:
+brojevi,npr.,100,3.14 itd.
+negativni brojevi,-15,-2 itd.
+stringovi su true,osim praznog.
+cak i string 'false' je true
+bilo koji izraz ,osim nule(0) je true
+
+-sve sto nema vrijednost je uvijek FALSE:
+broj 0,
+-0,
+prazan string (x = "";)
+undefined,
+boolean value FALSE 
+boolean value NaN
+
+OPERATORI BOOLEAN
+AND (&&)-TRUE ako su oba elementa TRUE
+OR(||) TRUE ako je makar jedan element TRUE
+NOT(!) bira između TRUE i FALSE ili FALSE i TRUE
+

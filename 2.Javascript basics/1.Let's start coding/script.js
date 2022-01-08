@@ -86,6 +86,7 @@ var now = 2018;
 var yearJohn = 1989;
 var fullAge = 18;
 
+//multiple operators
 var isFullAge = now - yearJohn >= fullAge; //true,zato sto znak - ima prednost nad znakom >=
 console.log(isFullAge);
 
@@ -94,3 +95,20 @@ var ageJohn = now - yearJohn;
 var ageMark = 35;
 var average = (ageJohn + ageMark) / 2; //operator / ima prednost,ali ako stavimo zagrade ,onda ima prednost ono sto je u zagradi,kao u matematici
 console.log(average);
+
+//mutltiple assignmets
+var x, y;
+x = (3 + 5) * 4 - 6; //8 * 4 - 6// 32 - 6 // 26
+x = y = (3 + 5) * 4 - 6; //8 * 4 - 6// 32 - 6 // 26
+console.log(x, y);
+
+//more operators
+//x = x * 2; // je isto kao i :
+x *= 2;
+console.log(x);
+x += 10;
+console.log(x);
+//x = x + 1; //je isto kao i:
+//x += 1; // ili:
+x++;
+console.log(x);
