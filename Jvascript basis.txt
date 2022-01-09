@@ -39,3 +39,9 @@ operacija koja se izvrsava ako je uslov tacan
 i ako je netacan izvrasava se drugi uslov(slicno kao if else statement)
 
 slicno tome djeluje i switch petlja
+
+Function declaration and expression
+
+return ako se izvrsi ,automatski prekida kod,tako da u switch petlji ne treba break,ako ima return.
+expression funkcija je obicno smjestena u varijablu.I od nje se ocekuje da uvijek daje neki rezultat.
+Declaration funkcija moze a i nemora da odmah daje rezultat.
