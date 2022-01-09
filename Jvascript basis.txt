@@ -31,3 +31,11 @@ AND (&&)-TRUE ako su oba elementa TRUE
 OR(||) TRUE ako je makar jedan element TRUE
 NOT(!) bira između TRUE i FALSE ili FALSE i TRUE
 
+Ternary operatori
+
+imaju tri bloka :
+uslov koji se treba ispitati
+operacija koja se izvrsava ako je uslov tacan
+i ako je netacan izvrasava se drugi uslov(slicno kao if else statement)
+
+slicno tome djeluje i switch petlja
