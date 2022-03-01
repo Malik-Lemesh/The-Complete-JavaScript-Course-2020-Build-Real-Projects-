@@ -45,3 +45,6 @@ Function declaration and expression
 return ako se izvrsi ,automatski prekida kod,tako da u switch petlji ne treba break,ako ima return.
 expression funkcija je obicno smjestena u varijablu.I od nje se ocekuje da uvijek daje neki rezultat.
 Declaration funkcija moze a i nemora da odmah daje rezultat.
+
+Pig Game
+
